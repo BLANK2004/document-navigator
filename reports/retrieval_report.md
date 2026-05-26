@@ -12,7 +12,7 @@
 - precision@1: 0.8667  (answer rows)
 - precision@3: 1.0000  (answer rows)
 - precision@5: 1.0000  (= recall@5 for single-gold queries)
-- citation_accuracy: 0.8000
+- citation_accuracy: 0.8667
 - key_phrase_accuracy: 0.7333
 - answer_pass_rate: 0.7333
 - refusal_correctness: 1.0000  (refuse rows: fraction correctly refused)
@@ -20,7 +20,7 @@
 - overall_pass_rate: 0.8000  (all 20 rows)
 - refusal_rate: 0.2500  (all rows)
 - mean_top_similarity: 0.4247
-- mean_elapsed_ms: 3462.1 ms
+- mean_elapsed_ms: 3492.9 ms
 - evidence_strength (answer rows): strong=12  weak=3  none=0
 - evidence_strength (refuse rows): strong=0  weak=0  none=5
 
@@ -45,7 +45,7 @@
 ## Examples (Failures)
 - Q: Why use chunk overlap?
   - Retrieved: guide_chunking_strategy.pdf (sim=0.449)
-  - Answer + citation: Chunk overlap can improve recall by ensuring that relevant context is preserved across chunk boundaries, even if the exact query terms are not present in a single chunk. [guide_rag_basics.pdf:1]
+  - Answer + citation: Chunk overlap can improve recall by ensuring that relevant context is preserved across chunk boundaries, even if the exact query terms are not present in a single chunk. [guide_chunking_strategy.pdf:1]
   - Gold: [guide_chunking_strategy.pdf:1]
   - Why it failed: key phrase absent from generated answer
   - Fix attempted: —

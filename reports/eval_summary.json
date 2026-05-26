@@ -5,7 +5,7 @@
   "precision_at_1": 0.8667,
   "precision_at_3": 1.0,
   "precision_at_5": 1.0,
-  "citation_accuracy": 0.8,
+  "citation_accuracy": 0.8667,
   "key_phrase_accuracy": 0.7333,
   "answer_pass_rate": 0.7333,
   "refusal_correctness": 1.0,
@@ -13,7 +13,7 @@
   "overall_pass_rate": 0.8,
   "refusal_rate": 0.25,
   "mean_top_similarity": 0.4247,
-  "mean_elapsed_ms_total": 3462.07,
+  "mean_elapsed_ms_total": 3492.86,
   "evidence_strength_counts": {
     "strong": 12,
     "weak": 3,
